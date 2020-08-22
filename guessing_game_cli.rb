@@ -4,6 +4,10 @@ def run_guessing_game
   
   input = gets.chomp
   
-  if input.to_i == target
+  if input.to_i == target_number
+    
+  elsif input === "exit"
+  
+  end
   
 end
