@@ -4,6 +4,6 @@ def run_guessing_game
   
   input = gets.chomp
   
-  
+  if input.to_i == target
   
 end
